@@ -26,7 +26,17 @@
 
 .carousel {
     width: 50%;
-    height: 500px;
     margin: auto;
 }
 
+.performance-image-carousel {
+    margin: 2rem;
+    background-color: lightgreen;
+}
+
+/*Media Page Youtube Video Div Styling*/
+
+.performance-links {
+    border: 3px solid dimgrey;
+    margin: 2rem;
+}
