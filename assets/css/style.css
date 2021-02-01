@@ -18,6 +18,11 @@ html {
     
 }
 
+.header {
+    text-align: center;
+    color: darkslategray;
+}
+
 /*Carousel Styling*/
 
 .carousel {
