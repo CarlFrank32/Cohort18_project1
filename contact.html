@@ -23,6 +23,37 @@
             </li>
           </ul>
       </nav>
+      <form>
+        <fieldset class="center">
+            <legend>Booking Form</legend>
+            Full Name:
+            <br> 
+            <input name="fullName" type="text" required="required" placeholder="Enter your name"/>
+            <br>
+            Email Address:
+            <br> 
+            <input name="emailAddress" type="email" require="required" placeholder="Enter your email"/>
+            <br>
+            <label for="inquiry">What are you inquiring about?</label>
+            <br>
+            <select id="inquiry" name="inquiry">
+                <option value="solo">Solo Booking</option>
+                <option value="lessons">Private Lessons</option>
+                <option value="wedding">Wedding Ceremony</option>
+                <option value="director">Music Director</option>
+                <option value="recital">Recital</option>
+                <option value="accompanist">Accompanist</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <label for="message">Message:</label>
+            <br>
+            <textarea class="center" id="message" name="message" rows="20" cols="50" placeholder="Type your message here...">
+            </textarea>
+            <br>
+            <input type="submit">
+        </fieldset>
+    </form>
       <footer class="footer">
         <ul>
             <li>&copy;2020 by Carl Frank</li>
