@@ -1,5 +1,4 @@
 .container {
-    position: relative;
     text-align: center;
     color: darkslategray;
 }
@@ -14,12 +13,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     
-}
-
-.main-banner h1 {
-    vertical-align: center;
-
-   
 }
 
 /*Carousel Styling*/
