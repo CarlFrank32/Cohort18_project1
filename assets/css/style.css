@@ -49,3 +49,37 @@ h2 {
     border-radius: 10px;
 }
 
+/*Footer Styling*/
+
+.footer {
+    width: 100%;
+    background-color: #A09CB0;
+    overflow: auto 0;
+}
+
+.footer li {
+    float: left;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 12px;
+    width: 23%;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #36454F;
+}
+
+.footer a:hover {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 500px) {
+    .footer a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
