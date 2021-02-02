@@ -1,2 +1,2 @@
 # Cohort18_project1
-The first project for my coding bootcamp
+This is the first project for my coding bootcamp.  It is a personal website for myself.  I am a professionally trained classical singer.  The website contains a brief performance biography.  It also contains production photos, youtube links to performances.  The booking page has services that I could offer and potential prices.  Below the services information there is a form for a prospective employer or client to contact me.
