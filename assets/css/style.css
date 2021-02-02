@@ -6,6 +6,12 @@ html {
     color: darkslategray;
 }
 
+body {
+    background-color: #D1E8E2;
+}
+
+/* Home Page styling */
+
 .main-banner {
     border-radius: 25px;
     min-width: 400px;
@@ -29,6 +35,16 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+.bio {
+    background-color: sandybrown;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+
 }
 
 /*Carousel Styling*/
