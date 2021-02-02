@@ -56,7 +56,7 @@
           <p>Mr. Frank is an avid recitalist.  He specializes in the works of Schubert, Finzi, Beethoven, Brahms, and Vaughan Williams.</p>
         </div>
       </div>
-      <form class="contact-form">
+      <form action="https://formspree.io/f/xaylkonp" method="POST" class="contact-form">
         <fieldset class="center">
             <legend>Booking Form</legend>
             <div class="name">
@@ -66,7 +66,7 @@
             <div class="address">
             Email Address:
             </div>
-            <input name="emailAddress" type="email" required placeholder="Enter your email"/>
+            <input type="text" name="_replyto" required placeholder="Enter your email"/>
             <div class="inquiry type">
             <label for="inquiry">Inquiry Type</label>
             </div>
@@ -81,10 +81,10 @@
             <div class="message">
             <label for="message">Message:</label>
             </div>
-            <textarea class="center" id="message" name="message" rows="5" cols="65" placeholder="Type your message here...">
+            <textarea name="message" rows="5" cols="65" placeholder="Type your message here...">
             </textarea>
             <div class="submit">
-            <input type="submit">
+              <button type="submit">Send</button>
             </div>
         </fieldset>
     </form>
