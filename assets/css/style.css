@@ -22,6 +22,21 @@ body {
     
 }
 
+.main-banner-text {
+    font-family: 'Bevan' , cursive;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    padding: 5px;
+    transform: translate(-50%, -50%);
+    color: #D1E8E2;
+    background-color: rgba(103,102,105,0.8071603641456583);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 5rem;
+    width: 400px;
+}
+
 .header {
     text-align: center;
     color: #2C3531;
