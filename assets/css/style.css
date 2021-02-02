@@ -98,6 +98,30 @@ h3 {
     }
 }
 
+/* Services Styling */
+
+.service-descriptions {
+    display: flex;
+    flex-wrap: wrap;
+}
+.service {
+    width: 25%;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: .5rem;
+}
+
+.service-title {
+    margin: 0;
+    padding: 0;
+}
+
+.service h4 , .service p {
+    margin: 0;
+    padding: 0;
+}
 /* Form Styling */
 
 .contact-form {
