@@ -42,6 +42,10 @@ body {
     color: #2C3531;
 }
 
+.headerFont {
+    font-family: 'Bevan' , cursive;
+}
+
 h1 {
     text-align: center;
 }
