@@ -58,16 +58,16 @@
       <form class="contact-form">
         <fieldset class="center">
             <legend>Booking Form</legend>
+            <div class="name">
             Full Name:
-            <br> 
+            </div>
             <input name="fullName" type="text" required="required" placeholder="Enter your name"/>
-            <br>
+            <div class="address">
             Email Address:
-            <br> 
+            </div>
             <input name="emailAddress" type="email" require="required" placeholder="Enter your email"/>
-            <br>
-            <label for="inquiry">What are you inquiring about?</label>
-            <br>
+            <div class="inquiry type">
+            <label for="inquiry">Inquiry Type</label>
             <select id="inquiry" name="inquiry">
                 <option value="solo">Solo Booking</option>
                 <option value="role">Operatic Role</option>
@@ -76,13 +76,15 @@
                 <option value="recital">Recital</option>
                 <option value="other">Other</option>
             </select>
-            <br>
+            </div>
+            <div class="message">
             <label for="message">Message:</label>
-            <br>
+            </div>
             <textarea class="center" id="message" name="message" rows="5" cols="65" placeholder="Type your message here...">
             </textarea>
-            <br>
+            <div class="submit">
             <input type="submit">
+            </div>
         </fieldset>
     </form>
       <footer class="footer">
