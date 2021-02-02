@@ -23,7 +23,7 @@ body {
 }
 
 .main-banner-text {
-    font-family: 'Bevan' , cursive;
+    font-family: 'Basic', sans-serif;
     position: absolute;
     top: 85%;
     left: 50%;
@@ -43,7 +43,7 @@ body {
 }
 
 .headerFont {
-    font-family: 'Bevan' , cursive;
+    font-family: 'Basic', sans-serif;
 }
 
 h1 {
